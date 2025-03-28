@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-span {
+  color: #018696;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.header-content > span {
+  margin-right: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.15rem;
+}
+
+.header-content > span:hover {
+  color: #018696;
+}

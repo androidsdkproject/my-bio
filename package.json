@@ -1,0 +1,25 @@
+{
+  "name": "my-bio",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.86.0"
+  },
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.14.2",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "parcel": "^2.14.2",
+    "prettier": "^3.5.3",
+    "svgo": "^3"
+  }
+}

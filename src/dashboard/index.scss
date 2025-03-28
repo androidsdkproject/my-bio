@@ -1,0 +1,15 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+
+  .side-card {
+    width: 20%;
+    min-width: 300px;
+  }
+  .main {
+    width: 70%;
+    margin-left: 20px;
+  }
+}

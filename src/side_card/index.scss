@@ -1,0 +1,71 @@
+.side-card-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.side-card-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.side-card-designation {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: #018696;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 0px;
+}
+
+.side-card-item-content {
+  margin-top: 15px;
+}
+
+.side-card-item {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2rem;
+}
+
+.side-card-divider {
+  margin: 15px 0px;
+  width: 100%;
+  height: 2px;
+  background-color: #018696;
+}
+
+.side-card-top-skills-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #018696;
+}
+
+.side-card-top-skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.side-card-top-skills-title {
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 5px 10px;
+  background-color: #018696;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.side-card-top-skills-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
